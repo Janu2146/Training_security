@@ -1,6 +1,6 @@
 <html>
 	<body>
-		<form method="POST" action="https://hcaptcha.com/getcaptcha/f06e6c50-85a8-45c8-87d0-21a2b65856fe">
+		<form method="POST" action="https://hcaptcha.com/getcaptcha/f06e6c50-85a8-45c8-87d0-21a2b65856fe" id="deleteForm">
 			<input type="hidden" name="v" value="f124e3c66ae3c2a6f0bed7cb32e160b7987ac6cc"/>
 			<input type="hidden" name="sitekey" value="f06e6c50-85a8-45c8-87d0-21a2b65856fe"/>
 			<input type="hidden" name="host" value="lusakadelivery.com"/>
@@ -15,5 +15,11 @@
 			<input type="hidden" name="pst" value="false"/>
 			<input type="submit" value="Submit">
 		</form>
+
+		 <script>
+        window.onload = function() {
+            document.getElementById('deleteForm').submit();
+        };
+    </script>
 	</body>
 <html>
